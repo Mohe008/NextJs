@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///home/ahmed/Desktop/NextJs/01_ui/src/app/courses/page.tsx"],"sourcesContent":["import React from 'react';\nimport courseData from \"@/data/music_course.json\";\n\nfunction page() {\n  return (\n    <div>\n      <h1>All Courses {co}</h1>\n    </div>\n  )\n}\n\nexport default page"],"names":["page","co"],"mappings":";;;;;;AAGA,SAASA;IACP,qBACE,8OAAC;kBACC,cAAA,8OAAC;;gBAAG;gBAAaC;;;;;;;;;;;;AAGvB;uCAEeD"}},
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":["file:///home/ahmed/Desktop/NextJs/01_ui/src/app/favicon.ico.mjs%20(structured%20image%20object)"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 48, height: 48 }\n"],"names":["src","width","height"],"mappings":";;;;AAAA;;uCACe;IAAEA,KAAAA,0IAAG;IAAEC,OAAO;IAAIC,QAAQ;AAAG"}}]
+}
