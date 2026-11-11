@@ -4,11 +4,11 @@ import { BackgroundRippleEffect } from './ui/background-ripple-effect';
 
 function MovingCardSection() {
   return (
-    <div className="h-[42rem] w-full dark:bg-black dark:bg-grid-white/[0.2] relative flex flex-col items-center justify-center overflow-hidden">
-      <BackgroundRippleEffect rows={12}/>
-      <h2 className="text-3xl font-bold text-center mb-8 z-10">Hear our Harmony: Voices of success</h2>
-      <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
-        <div className="w-full max-w-6xl">
+    <div className="h-[30rem] sm:h-[42rem] w-full dark:bg-black dark:bg-grid-white/[0.2] relative flex flex-col items-center justify-center overflow-hidden">
+      <BackgroundRippleEffect rows={12} cols={80}/>
+      <h2 className="text-3xl font-bold text-center w-[80%] sm:w-full mb-8 z-10">Hear our Harmony: Voices of success</h2>
+      <div className="flex justify-center sm:w-full overflow-hidden px-4 sm:px-6 lg:px-8">
+        <div className="w-full max-w-6xl ">
           <InfiniteMovingCards
             items={testimonials}
             direction="right"

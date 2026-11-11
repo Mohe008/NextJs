@@ -1,5 +1,8 @@
+import CardHoverSection from "@/components/CardHoverSection";
 import FeaturedCourses from "@/components/FeaturedCourses";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
+import InstructorSection from "@/components/InstructorSection";
 import MovingCardSection from "@/components/MovingCardSection";
 import StickyScrollSection from "@/components/StickyScrollSection";
 
@@ -11,6 +14,9 @@ export default function Home() {
         <FeaturedCourses />
         <StickyScrollSection />
         <MovingCardSection />
+        <CardHoverSection />
+        <InstructorSection />
+        <Footer />
       </main>
     </>
   );
